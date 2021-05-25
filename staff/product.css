@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=New+Tegomin&display=swap');
+
+*{
+    font-family: 'New Tegomin', serif;
+}
+
+navbar{
+    width: 100%;
+    position:fixed;
+    margin-top: 0;
+    font-family: 'New Tegomin', serif;
+    font-size: 2rem;
+    
+}
+
+
+.products{
+    margin-top: 70px;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    flex-wrap: wrap;
+    
+    
+    /* background-size: contain; */
+
+}
+.card{
+
+    
+   float: left;
+    height: 450px;
+   
+   /* min-width: 11.8rem;
+      max-width: 17.5vw;
+    */
+    width:250px;
+    position:inherit;
+    margin: 20px; 
+    margin-left: 40px;
+    
+    box-shadow: 5px 5px 10px #020202b4;
+    background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#7002f0), to(#48dbaf));
+    font-family: 'Exo 2', sans-serif;
+
+}
+
+
+.product_id
+{
+    color: white;
+}
+.product-name{
+    font-family: 'Coda Caption', sans-serif;
+
+}
+.product-description{
+    color:darkblue;
+    border-style: ridge
+    p.ridge {border-style: ridge;}
+}
+.slide{
+    margin-top: 80px;
+    height: 50px;
+}
+.footer{
+    background-color: rgb(32, 29, 29);
+    border-radius: 10px;
+    box-shadow: 0px 2px 15px #999999;
+}
+.product-img{
+    height:50%;
+    object-fit: contain;
+}
+
