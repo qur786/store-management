@@ -1,0 +1,25 @@
+.a1{
+	color:black;
+	text-decoration:none;
+}
+.a2{
+	color:red;
+	text-decoration:none;
+}
+.heading{
+	height:60px;
+	width:100%;
+	text-align:center;
+	font-family:arial;
+	font-size:30px;
+	//font-style:italic;
+	text-shadow:2px 2px 2px;
+    background:linear-gradient(#0f00ff,#f00fff);
+	border:solid 2px white;
+	
+}
+.product-image{
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+}

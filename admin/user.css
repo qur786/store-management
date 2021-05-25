@@ -1,0 +1,30 @@
+.heading{
+	height:60px;
+	width:100%;
+	text-align:center;
+	font-family:arial;
+	font-size:30px;
+	//font-style:italic;
+	text-shadow:2px 2px 2px;
+    background:linear-gradient(#f100ab,#3212ab);
+	border:solid 2px white;
+	
+}
+.a1{
+	color:black;
+	text-decoration:none;
+}
+.a2{
+    color:red;
+    text-decoration: none;
+}
+a{
+    color:red;
+    text-decoration: none;
+}
+
+.user-img{
+    height: 200px;
+    width: 200px;
+    object-fit:contain;
+}

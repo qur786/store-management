@@ -1,0 +1,50 @@
+.heading{
+	height:60px;
+	width:100%;
+	text-align:center;
+	font-family:arial;
+	font-size:30px;
+	//font-style:italic;
+	text-shadow:2px 2px 2px;
+	background:linear-gradient(#16f2ab,#3212ab);
+	border:solid 2px white;
+	
+}
+
+.a1{
+  color:white;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+.a1:hover {
+  color: red;
+  background-color: transparent;
+  text-decoration: none;
+}
+.a1:active {
+  color: yellow;
+  background-color: transparent;
+  text-decoration: none;
+}
+.a2{
+  color:red;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+.a2:hover {
+  color: white;
+  background-color: transparent;
+  text-decoration: none;
+}
+.a2:active {
+  color: yellow;
+  background-color: transparent;
+ text-decoration: none;
+}
+.user-image{
+    width: 200px;
+    height: 200px;
+    object-fit: contain;
+}

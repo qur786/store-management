@@ -1,0 +1,85 @@
+
+/* background image */
+body{
+	background:url("image/background2.jpg");
+	background-size:100%;
+}
+/* form div size */
+.form_div{
+	background-color:white;
+	width:400px;
+	
+	font-size:18px;
+	border-radius:10px;
+	border:1px solid black;
+	box-shadow:4px 4px 6px gray;
+	color:black;
+	margin:50px auto 0px auto;
+	padding:15px;
+	padding-left:90px;
+	
+}
+/* form label font style */
+p{
+	font-family:sans-serif;
+	font-style:italic;
+}
+label{
+	font-family:sans-serif;
+	//font-style:italic;
+}
+
+/* button styling */
+input#edit{
+	font-family:sans-serif;
+	border:none;
+	border-radius:3px;
+	background-color:#00ff40;
+	color:#fff;
+	cursor:pointer;
+	border:1px solid rgba(255,255,255,0.3);
+	box-shadow:1px 1px 5px;
+	//margin-bottom:20px;
+    margin-right: 10px;
+}
+input#submit{
+    font-family:sans-serif;
+	border:none;
+	border-radius:3px;
+	background-color:#00ff40;
+	color:#fff;
+	cursor:pointer;
+	border:1px solid rgba(255,255,255,0.3);
+	box-shadow:1px 1px 5px;
+}
+#profile_pic{
+	border-radius:50%;
+	border:solid 2px green;
+	height:150px;
+	width:150px;
+	background-size:100% 100%;
+	margin-left:30px;
+	margin-top:1px;
+    background-size: cover;
+}
+h4{
+	font-family:Harlow Solid Italic;
+	margin-left:70px;
+}
+
+select , input{
+    border-width: 0px 0px;
+   
+}
+label{
+     font-weight: bold;
+}
+
+select[disabled*=true]{
+    color:black;
+    
+    /*for forefox*/
+    -moz-appearance: none;
+     /* for Safari, Chrome, Opera */
+     -webkit-appearance: none;
+}

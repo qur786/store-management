@@ -1,0 +1,73 @@
+
+/* background image */
+body{
+	background:url("image/card2.jpg");
+	background-size:100%;
+}
+/* form div size */
+.form_div{
+	background-color:rgba(0,0,0,0.5);
+	width:400px;
+	font-size:18px;
+	border-radius:10px;
+	border:1px solid rgba(255,255,255,0.3);
+	box-shadow:2px 2px 15px rgba(0,0,0,0.3);
+	color:#fff;
+	margin:50px auto 0px auto;
+	padding:15px;
+	padding-left:90px;
+}
+
+label{
+	font-family:sans-serif;
+	font-style:italic;
+}
+
+/* button styling */
+input#submit{
+	font-family:sans-serif;
+	border:none;
+	border-radius:3px;
+	background-color:mediumseagreen;
+	color:#fff;
+	cursor:pointer;
+	border:1px solid rgba(255,255,255,0.3);
+	box-shadow:1px 1px 5px;
+	//margin-bottom:20px;
+}
+input#edit{
+	font-family:sans-serif;
+	border:none;
+	border-radius:3px;
+	background-color:lightseagreen;
+	color:#fff;
+	cursor:pointer;
+	border:1px solid rgba(255,255,255,0.3);
+	box-shadow:1px 1px 5px;
+	//margin-bottom:20px;
+}
+/* input boxes style */
+.form_control{
+	height:35px;
+	width:250px;
+	border-radius:7px;
+}
+.desc{
+	height:auto;
+	width:250px;
+	border-radius:7px;
+}
+
+select[disabled*=true]{
+    color:white;
+    
+    /*for forefox*/
+    -moz-appearance: none;
+     /* for Safari, Chrome, Opera */
+     -webkit-appearance: none;
+}
+
+select , input{
+    border-width: 0px 0px;
+   
+}
