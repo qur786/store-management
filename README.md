@@ -1,8 +1,7 @@
 # Store-Management
-***
-## About Store management System
-### This is a Web based Store Management software which is used for maintaining inventory system inside an Organization. This Website has been built in Html , css , bootstrap , javascript , php .This website can be used in any organization to manage their inventory management system of storing products .
-***
+
+This is a Web based Store Management software which is used for maintaining inventory system inside an Organization. This Website has been built in Html , css , bootstrap , javascript , php .This website can be used in any organization to manage their inventory management system of storing products .
+
 ## Features of Store Management System
 * New staff can register to the website
 * Admin can Add , Delete , See and Update User Details of Store Management System
